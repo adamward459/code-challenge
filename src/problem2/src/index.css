@@ -1,0 +1,86 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+  }
+  
+  .bitcoin-background {
+    height: 100vh;
+  }
+  
+  .bitcoin-background > img {
+    opacity: 0.9;
+    animation: rotate 10s linear infinite;
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  .custom-swap-coin-form {
+    width: 500px;
+    border: 2px solid yellow;
+    background-color: black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .custom-header {
+    color: yellow;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .custom-form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .custom-label {
+    display: block;
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+  
+  .custom-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid yellow; /* Yellow color for border */
+    border-radius: 4px;
+  }
+  
+  .custom-note {
+    color: yellow;
+    margin-bottom: 10px;
+  }
+
+  .custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: black;
+    background-color: yellow; /* Yellow color */
+    border: 1px solid yellow; /* Yellow color for border */
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #f6ad55; /* Yellow color with slight variation */
+  }
+  

@@ -1,10 +1,24 @@
-# 99Tech Code Challenge #1 #
+# Installation
 
-Note that if you fork this repository, your responses may be publicly linked to this repo.  
-Please submit your application along with the solutions attached or linked.   
+```
+npm i
+```
 
-It is important that you minimally attempt the problems, even if you do not arrive at a working solution.
+## Run test for problem 1
 
-## Submission ##
-You can either provide a link to an online repository, attach the solution in your application, or whichever method you prefer.
-We're cool as long as we can view your solution without any pain.
+```sh
+npm run test:problem1
+```
+
+# Run for problem 2
+
+```sh
+npm run run:problem2
+```
+
+
+## Run test for problem 2
+
+```sh
+npm run test:problem2
+```
